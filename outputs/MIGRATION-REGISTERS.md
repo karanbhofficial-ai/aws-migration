@@ -30,6 +30,7 @@ All actions below are proposed. Existing completion status is unknown. Each nomi
 | A14 | Check direct and Vault-mediated consumers and record application meetings | Server-group owners, TBD | TBD | Consumer map, meeting notes and owner responses |
 | A15 | Confirm Vault/service-account access and log approved request IDs | Authorized access requester, TBD | TBD | Access approvals and test evidence |
 | A16 | Confirm AWS POC readiness and prepare repeatable application validation steps | Application test lead with central team | TBD | POC handoff and executed test evidence |
+| A17 | Execute AWS-ACT-POD-001: meet each assigned POD lead, confirm direct/indirect/Vault consumers, workloads, dependencies, RHEL impact, validation scenarios and disposition | Karan / assigned server-group owners | TBD | Confirmed workload records, meeting notes, evidence links, owners and open actions |
 
 ## Initial server/workload case
 
@@ -68,6 +69,7 @@ These are proposed risks inferred from information gaps. Likelihood, severity, n
 | R08 | Full migration through hypercare must fit the three-month estimate, but dates, capacity and 2026/2027 allocation are unresolved | Confirm calendar baseline and size the full sequence against actual scope and capacity; escalate forecast mismatch | Program planning contact, TBD | Accepted schedule and scope baseline |
 | R09 | S02 screenshots may contain duplicates or conflicting account/host mappings | Reconcile with authoritative export before grouping or requesting migration | Discovery coordinator, TBD | Canonical inventory |
 | R10 | Missing direct/Vault consumer information may cause post-migration failures | Require both access-path checks and consumer attestation | Server-group owners, TBD | Consumer map and validation evidence |
+| R11 | POD responses may omit infrequent jobs, indirect consumers, hard-coded endpoints or shared mounts | Use the detailed POD-lead questionnaire and compare responses with approved inventory/discovery evidence | Karan / discovery coordinator, TBD | Lead confirmation plus reconciled dependency map |
 
 ## Decision log
 
@@ -85,6 +87,7 @@ Decisions remain open except for the user-confirmed coverage element of DEC08. T
 | DEC08 | Partially resolved: Karan confirmed full migration through hypercare on 6 October 2026. Approved dates and 2026/2027 delivery split remain open | Dated roadmap commitment | Coverage clarified by Karan; formal schedule authority TBD | User reply; latest overview, scope, capacity and central-team milestones still required |
 | DEC09 | Compliance requirement and success measurement definitions | Baseline reporting and acceptance planning | TBD, program/business/control authority | Requirement, scope denominator, criticality and disruption tolerances |
 | DEC10 | Canonical server identity, grouping and treatment of possible temporary/low-load servers | P02/P03 and ServiceNow requests | TBD, Data SRE and migration authority | Reconciled export, load evidence and consumer clearance |
+| DEC11 | Required discovery depth and approved programmatic tooling for server/application evidence | Before detailed assessment and POC access | Central migration/SRE and application authority | Approved tooling/access decision and data-handling boundaries |
 
 For each resolved decision append: selected option, rationale, alternatives considered, approver, decision date, evidence link, affected workloads/waves and follow-up actions.
 

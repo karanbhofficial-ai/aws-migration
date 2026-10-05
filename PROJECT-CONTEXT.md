@@ -83,3 +83,5 @@ The repository also contains the separate RHEL-to-Amazon-Linux-on-AWS planning p
 - AWS source extractions: `outputs/SOURCE-S01-INITIATIVE-OVERVIEW.md` and `outputs/SOURCE-S02-CHAT-AND-INVENTORY-EXTRACTION.md`
 
 The AWS work is an application-team planning draft. Central migration/automation teams own AWS provisioning and server migration. Screenshot-derived server rows and historical chat statuses are leads only and require reconciliation with the authoritative Data SRE/ServiceNow export. No AWS migration gate is recorded as accepted in this repository.
+
+The reviewed AWS chats also support a focused POD-lead action: discover direct, indirect and Vault-mediated consumers; capture scripts, packages, database/Snowflake/AWS CLI connections, schedules, external endpoints, configurations, secrets references, hard-coded hostnames/IPs and RHEL-specific behaviour; then agree POC/UAT validation and migration disposition. See `outputs/ACTION-ITEM-POD-LEAD-DISCOVERY.md`. Airflow chat material remains in the Airflow planning pack and is not part of this AWS action.

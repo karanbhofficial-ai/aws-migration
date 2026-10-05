@@ -26,6 +26,8 @@ Project evidence comes from [PROJECT-CONTEXT.md](../PROJECT-CONTEXT.md), which s
 
 New S02 screenshots are extracted in [SOURCE-S02-CHAT-AND-INVENTORY-EXTRACTION.md](SOURCE-S02-CHAT-AND-INVENTORY-EXTRACTION.md), with a candidate server table in [SERVER-INVENTORY-DRAFT.md](SERVER-INVENTORY-DRAFT.md), discovery work packages in [DISCOVERY-ACTION-PLAN.md](DISCOVERY-ACTION-PLAN.md), and a seeded RAID register in [RAID-AND-STATUS-S02.md](RAID-AND-STATUS-S02.md). S02 supports the discovery approach and responsibility boundary; it does not establish current completion or canonical server identity.
 
+The detailed POD-lead interview and evidence request is in [ACTION-ITEM-POD-LEAD-DISCOVERY.md](ACTION-ITEM-POD-LEAD-DISCOVERY.md). It incorporates the AWS-team boundary and inventory questions from the reviewed chats, the `lnxprd0799` Cognos/DB2 validation case, and official AWS portfolio-assessment prompts. It is an application-team action; it does not authorize provisioning, migration execution, access changes or discovery-tool deployment.
+
 The slide's five delivery stages map to this roadmap: Assess & Plan (P01-P04), Build & Remediate (P05-P06), Validate & Test (P06-P07), Migrate & Cutover (P08-P09), and Stabilize & Transition (P10). Source retirement (P11) is an additional proposed closure step. The slide's program-wide provisioning scope does not reassign central-team work to the application team.
 
 ## 2. Roadmap and approval gates

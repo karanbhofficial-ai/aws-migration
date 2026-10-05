@@ -8,6 +8,7 @@ This repository contains the working strategy and planning documentation for the
 - [Migration registers](outputs/MIGRATION-REGISTERS.md)
 - [Server inventory draft](outputs/SERVER-INVENTORY-DRAFT.md)
 - [Discovery and access action plan](outputs/DISCOVERY-ACTION-PLAN.md)
+- [POD-lead discovery action](outputs/ACTION-ITEM-POD-LEAD-DISCOVERY.md)
 - [RAID and status register](outputs/RAID-AND-STATUS-S02.md)
 - [Initiative overview extraction](outputs/SOURCE-S01-INITIATIVE-OVERVIEW.md)
 - [Chat and inventory extraction](outputs/SOURCE-S02-CHAT-AND-INVENTORY-EXTRACTION.md)
