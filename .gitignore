@@ -1,0 +1,12 @@
+# Working material and local review artifacts
+work/
+
+# Local/editor/system files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
